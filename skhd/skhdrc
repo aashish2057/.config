@@ -2,4 +2,20 @@
 cmd - j : yabai -m window --focus south
 cmd - k : yabai -m window --focus north 
 cmd - l : yabai -m window --focus east 
-cmd - h : yabai -m window --focus west 
+cmd - h : yabai -m window --focus west
+
+# Change between external displays
+cmd + shift - i : yabai -m display --focus east 
+cmd + shift - u : yabai -m display --focus west 
+
+# flip y axis
+cmd + shift - y : yabai -m space --mirror y-axis
+
+# flip x axis
+cmd + shift - x : yabai -m space --mirror x-axis
+
+# move window and split
+cmd + ctrl - j : yabai -m window --warp south
+cmd + ctrl - k : yabai -m window --warp north 
+cmd + ctrl - h : yabai -m window --warp west 
+cmd + ctrl - l : yabai -m window --warp east 
