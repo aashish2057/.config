@@ -18,4 +18,5 @@ cmd + shift - x : yabai -m space --mirror x-axis
 cmd + ctrl - j : yabai -m window --warp south
 cmd + ctrl - k : yabai -m window --warp north 
 cmd + ctrl - h : yabai -m window --warp west 
-cmd + ctrl - l : yabai -m window --warp east 
+cmd + ctrl - l : yabai -m window --warp east
+

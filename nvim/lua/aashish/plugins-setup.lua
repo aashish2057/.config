@@ -87,6 +87,7 @@ local plugins = {
 	"hrsh7th/nvim-cmp",
 	"hrsh7th/cmp-buffer",
 	"hrsh7th/cmp-path",
+	"hrsh7th/cmp-cmdline",
 
 	-- snippets
 	"L3MON4D3/LuaSnip",
@@ -182,6 +183,11 @@ local plugins = {
 			"rcarriga/nvim-notify",
 		},
 	},
+
+	-- DB Tools
+	"tpope/vim-dadbod",
+	"kristijanhusak/vim-dadbod-ui",
+	"kristijanhusak/vim-dadbod-completion",
 }
 local opts = {}
 require("lazy").setup(plugins, opts)
