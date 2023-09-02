@@ -6,7 +6,7 @@ Text Editor
 Terminal Emulator
 ### yabai
 Window Manager
-## skhd
+### skhd
 Hotkey Daemon
 
 
