@@ -8,7 +8,7 @@ set -eo pipefail
 if ! [ -x "$(command -v brew)" ]; then
   echo >&2 "Error: brew is not installed."
   echo >&2 "Installing Brew"
-  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 else
     echo "Brew already installed"
 fi
