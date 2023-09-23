@@ -12,8 +12,6 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
--- ALL THE PLUGIN MADNESS
--- need to do git plugins
 local plugins = {
 	-- plugin that many other plugins use
 	"nvim-lua/plenary.nvim",
@@ -137,6 +135,13 @@ local plugins = {
 			--   `nvim-notify` is only needed, if you want to use the notification view.
 			--   If not available, we use `mini` as the fallback
 			"rcarriga/nvim-notify",
+		},
+	},
+
+	{
+		"kdheepak/lazygit.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
 		},
 	},
 }
