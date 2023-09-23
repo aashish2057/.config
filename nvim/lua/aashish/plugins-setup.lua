@@ -34,37 +34,6 @@ local plugins = {
 	},
 
 	{
-		"EdenEast/nightfox.nvim",
-		-- lazy = false,
-		-- priority = 1000,
-		-- config = function()
-		-- 	require("nightfox").setup({
-		-- 		options = {
-		-- 			transparent = true,
-		-- 		},
-		-- 	})
-		-- 	vim.cmd.colorscheme("nightfox")
-		-- end,
-	},
-
-	{
-		"folke/tokyonight.nvim",
-		-- lazy = false,
-		-- priority = 1000,
-		-- config = function()
-		-- 	require("tokyonight").setup({
-		-- 		style = "night",
-		-- 		transparent = true,
-		-- 	})
-		-- 	vim.cmd.colorscheme("tokyonight")
-		-- end,
-	},
-
-	{
-		"rebelot/kanagawa.nvim",
-	},
-
-	{
 		"AlexvZyl/nordic.nvim",
 	}, -- allow for quickly add quotes parenthesis and others arround things "tpope/vim-surround", allow replacing words with what is copied "vim-scripts/ReplaceWithRegister",
 	-- makes commenting easier
@@ -142,24 +111,11 @@ local plugins = {
 		},
 		version = "^1.0.0", -- optional: only update when a new 1.x version is released
 	},
-	-- note taking (experimenting)
 
 	-- tmux
 	{
 		"christoomey/vim-tmux-navigator",
 		lazy = false,
-	},
-
-	-- coding time tracking
-	{
-		"wakatime/vim-wakatime",
-		lazy = false,
-	},
-
-	-- trouble list
-	{
-		"folke/trouble.nvim",
-		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
 
 	{
@@ -183,11 +139,6 @@ local plugins = {
 			"rcarriga/nvim-notify",
 		},
 	},
-
-	-- DB Tools
-	"tpope/vim-dadbod",
-	"kristijanhusak/vim-dadbod-ui",
-	"kristijanhusak/vim-dadbod-completion",
 }
 local opts = {}
 require("lazy").setup(plugins, opts)
