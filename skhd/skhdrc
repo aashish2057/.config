@@ -20,3 +20,6 @@ cmd + ctrl - k : yabai -m window --warp north
 cmd + ctrl - h : yabai -m window --warp west 
 cmd + ctrl - l : yabai -m window --warp east
 
+# open alacritty
+cmd - return : open -na alacritty
+

@@ -211,3 +211,5 @@ symbol = " "
 
 [spack]
 symbol = "🅢 "
+
+SPACESHIP_GIT_STATUS_SHOW = false

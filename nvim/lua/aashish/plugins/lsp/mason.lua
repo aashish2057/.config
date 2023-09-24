@@ -26,13 +26,10 @@ mason_lspconfig.setup({
 		"html",
 		"cssls",
 		"tailwindcss",
-		"lua_ls",
-		"rust_analyzer",
-		"astro",
-		"pyright",
 		"yamlls",
-		"gopls",
-		"zls",
+		"angularls",
+		"omnisharp",
+		"lua_ls",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
@@ -42,15 +39,8 @@ mason_null_ls.setup({
 	-- list of formatters & linters for mason to install
 	ensure_installed = {
 		"prettier", -- ts/js formatter
-		"stylua", -- lua formatter
 		"eslint_d", -- ts/js linter
-		"ruff", -- .py linter
-		"mypy", -- .py linter
-		"black", -- .py formatter
-		"rustfmt", -- .rs linter
-		"gofmt",
-		"gopls",
-		"goimports_reviser",
+		"stylua", -- lua formatter
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
