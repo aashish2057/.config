@@ -83,6 +83,7 @@ $os\
 $container\
 $shell\
 $character"""
+command_timeout = 1000
 
 [line_break]
 disabled = true

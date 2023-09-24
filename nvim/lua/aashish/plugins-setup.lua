@@ -12,13 +12,10 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
--- ALL THE PLUGIN MADNESS
--- need to do git plugins
 local plugins = {
 	-- plugin that many other plugins use
 	"nvim-lua/plenary.nvim",
-	-- Color Scheme when you get bored use kanagawa
-	-- TODO; make transparent for catppuccin and kanagawa
+	"mfussenegger/nvim-dap",
 	{
 		"catppuccin/nvim",
 		name = catppuccin,
@@ -31,37 +28,6 @@ local plugins = {
 			})
 			vim.cmd.colorscheme("catppuccin-macchiato")
 		end,
-	},
-
-	{
-		"EdenEast/nightfox.nvim",
-		-- lazy = false,
-		-- priority = 1000,
-		-- config = function()
-		-- 	require("nightfox").setup({
-		-- 		options = {
-		-- 			transparent = true,
-		-- 		},
-		-- 	})
-		-- 	vim.cmd.colorscheme("nightfox")
-		-- end,
-	},
-
-	{
-		"folke/tokyonight.nvim",
-		-- lazy = false,
-		-- priority = 1000,
-		-- config = function()
-		-- 	require("tokyonight").setup({
-		-- 		style = "night",
-		-- 		transparent = true,
-		-- 	})
-		-- 	vim.cmd.colorscheme("tokyonight")
-		-- end,
-	},
-
-	{
-		"rebelot/kanagawa.nvim",
 	},
 
 	{
@@ -142,18 +108,11 @@ local plugins = {
 		},
 		version = "^1.0.0", -- optional: only update when a new 1.x version is released
 	},
-	-- note taking (experimenting)
 
 	-- tmux
 	{
 		"christoomey/vim-tmux-navigator",
 		lazy = false,
-	},
-
-	-- trouble list
-	{
-		"folke/trouble.nvim",
-		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
 
 	{
@@ -178,10 +137,20 @@ local plugins = {
 		},
 	},
 
-	-- DB Tools
-	"tpope/vim-dadbod",
-	"kristijanhusak/vim-dadbod-ui",
-	"kristijanhusak/vim-dadbod-completion",
+	{
+		"kdheepak/lazygit.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+		},
+	},
+
+	{
+		"mfussenegger/nvim-dap",
+		dependencies = {
+			"rcarriga/nvim-dap-ui",
+			"theHamsta/nvim-dap-virtual-text",
+		},
+	},
 }
 local opts = {}
 require("lazy").setup(plugins, opts)
