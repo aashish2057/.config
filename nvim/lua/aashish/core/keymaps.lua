@@ -31,3 +31,9 @@ keymap.set("n", "<PageDown>", "<cmd>BufferPrevious<cr>")
 keymap.set("n", "<leader>x", "<cmd>BufferClose<cr>")
 
 keymap.set("n", "<leader>c", "<cmd>NoiceDismiss<cr>")
+
+-- nvim dap
+keymap.set("n", "<leader>bp", ":DapToggleBreakpoint<cr>")
+keymap.set("n", "<leader>d", function()
+	require("dapui").toggle({})
+end)

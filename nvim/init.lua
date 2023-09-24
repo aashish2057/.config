@@ -16,6 +16,7 @@ require("aashish.plugins.lsp.null-ls")
 
 require("aashish.plugins.autopairs")
 require("aashish.plugins.treesitter")
+require("aashish.plugins.dapui")
 
 require("aashish.plugins.themes.nordic")
 require("aashish.plugins.themes.kanagawa")

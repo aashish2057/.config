@@ -15,8 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
 	-- plugin that many other plugins use
 	"nvim-lua/plenary.nvim",
-	-- Color Scheme when you get bored use kanagawa
-	-- TODO; make transparent for catppuccin and kanagawa
+	"mfussenegger/nvim-dap",
 	{
 		"catppuccin/nvim",
 		name = catppuccin,
@@ -142,6 +141,14 @@ local plugins = {
 		"kdheepak/lazygit.nvim",
 		dependencies = {
 			"nvim-lua/plenary.nvim",
+		},
+	},
+
+	{
+		"mfussenegger/nvim-dap",
+		dependencies = {
+			"rcarriga/nvim-dap-ui",
+			"theHamsta/nvim-dap-virtual-text",
 		},
 	},
 }
