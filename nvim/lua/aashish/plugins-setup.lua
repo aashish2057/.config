@@ -150,12 +150,6 @@ local plugins = {
 		lazy = false,
 	},
 
-	-- coding time tracking
-	{
-		"wakatime/vim-wakatime",
-		lazy = false,
-	},
-
 	-- trouble list
 	{
 		"folke/trouble.nvim",
