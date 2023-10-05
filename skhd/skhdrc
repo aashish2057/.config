@@ -22,4 +22,7 @@ cmd + ctrl - l : yabai -m window --warp east
 
 # open alacritty
 cmd - return : open -na alacritty
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3777d5d (update .config with stuff)

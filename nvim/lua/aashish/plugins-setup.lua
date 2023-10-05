@@ -32,7 +32,9 @@ local plugins = {
 
 	{
 		"AlexvZyl/nordic.nvim",
-	}, -- allow for quickly add quotes parenthesis and others arround things "tpope/vim-surround", allow replacing words with what is copied "vim-scripts/ReplaceWithRegister",
+	}, -- allow for quickly add quotes parenthesis and others arround things
+	"tpope/vim-surround",
+	-- allow replacing words with what is copied "vim-scripts/ReplaceWithRegister",
 	-- makes commenting easier
 	"numToStr/Comment.nvim",
 
