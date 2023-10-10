@@ -37,3 +37,6 @@ keymap.set("n", "<leader>bp", ":DapToggleBreakpoint<cr>")
 keymap.set("n", "<leader>d", function()
 	require("dapui").toggle({})
 end)
+
+-- lazygit
+keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>")
