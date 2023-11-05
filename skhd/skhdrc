@@ -59,6 +59,10 @@ ctrl - 7: yabai -m space --focus 7
 ctrl - 8: yabai -m space --focus 8
 ctrl - 9: yabai -m space --focus 9
 
+# switch space
+ctrl + shift - right: yabai -m space --focus next
+ctrl + shift - left: yabai -m space --focus prev 
+
 # create space
 cmd + shift - c: yabai -m space --create
 cmd + shift - d: yabai -m space --destroy
