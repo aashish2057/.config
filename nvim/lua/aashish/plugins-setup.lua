@@ -153,6 +153,11 @@ local plugins = {
 			"theHamsta/nvim-dap-virtual-text",
 		},
 	},
+
+	{
+		"saecki/crates.nvim",
+		dependencies = { "nvim-lua/plenary.nvim" },
+	},
 }
 local opts = {}
 require("lazy").setup(plugins, opts)

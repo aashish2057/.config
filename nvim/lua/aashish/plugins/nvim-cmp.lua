@@ -39,6 +39,7 @@ cmp.setup({
 		{ name = "buffer" }, -- text within current buffer
 		{ name = "path" }, -- file system paths
 		{ name = "vim-dadbod-completion" }, -- db queries
+		{ name = "crates" }, -- rust crates
 	}),
 	-- configure lspkind for vs-code like icons
 	formatting = {
