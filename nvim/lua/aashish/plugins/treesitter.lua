@@ -1,6 +1,6 @@
 -- import nvim-treesitter plugin safely
-local status, treesitter = pcall(require, "nvim-treesitter.configs")
-if not status then
+local treesitter_setup, treesitter = pcall(require, "nvim-treesitter.configs")
+if not treesitter_setup then
 	return
 end
 
