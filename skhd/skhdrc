@@ -60,7 +60,7 @@ ctrl - 8: yabai -m space --focus 8
 ctrl - 9: yabai -m space --focus 9
 
 # focus display
-cmd + ctrl - 1: yabai -m display --focus 1
+cmd + ctrl - 1: yabai -m display --focus 1 
 cmd + ctrl - 2: yabai -m display --focus 2 
 
 # switch space
