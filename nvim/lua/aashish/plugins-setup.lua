@@ -158,6 +158,11 @@ local plugins = {
 		"saecki/crates.nvim",
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
+
+	{
+		"exafunction/codeium.vim",
+		event = "BufEnter",
+	},
 }
 local opts = {}
 require("lazy").setup(plugins, opts)
