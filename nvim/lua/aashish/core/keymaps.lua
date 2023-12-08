@@ -40,3 +40,6 @@ end)
 
 -- lazygit
 keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>")
+
+-- clear white space
+keymap.set("n", "<Leader>wc", [[:lua vim.lsp.buf.format()<cr> <bar> :%s/\s\+$//e<cr>]])
