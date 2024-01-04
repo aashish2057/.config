@@ -3,6 +3,7 @@ require("aashish.core.keymaps")
 
 require("aashish.plugins-setup")
 require("aashish.plugins.comment")
+require("aashish.plugins.autopairs")
 require("aashish.plugins.nvim-tree")
 require("aashish.plugins.lualine")
 require("aashish.plugins.telescope")
@@ -17,7 +18,3 @@ require("aashish.plugins.crates")
 
 require("aashish.plugins.autopairs")
 require("aashish.plugins.treesitter")
-require("aashish.plugins.dapui")
-
-require("aashish.plugins.themes.nordic")
-require("aashish.plugins.themes.kanagawa")

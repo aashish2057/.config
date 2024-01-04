@@ -1,9 +1,9 @@
 local opt = vim.opt
-local diagnostic = vim.diagnostic
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true
-opt.scrolloff = 40
+opt.scrolloff = 999
 
 -- tabs & indentation
 opt.tabstop = 4
@@ -21,7 +21,6 @@ opt.smartcase = true
 
 -- apperance
 opt.termguicolors = true
-opt.background = ""
 opt.signcolumn = "yes"
 
 -- backspace

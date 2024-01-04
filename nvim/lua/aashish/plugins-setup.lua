@@ -15,25 +15,20 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
 	-- plugin that many other plugins use
 	"nvim-lua/plenary.nvim",
-	"mfussenegger/nvim-dap",
+
 	{
-		"catppuccin/nvim",
-		name = catppuccin,
+		"rebelot/kanagawa.nvim",
 		lazy = false,
 		priority = 1000,
 		config = function()
-			require("catppuccin").setup({
-				flavor = macchiato,
-				transparent_background = true,
-			})
-			vim.cmd.colorscheme("catppuccin-macchiato")
+			require("kanagawa").setup({})
+			vim.cmd.colorscheme("kanagawa-wave")
 		end,
 	},
 
-	{
-		"AlexvZyl/nordic.nvim",
-	}, -- allow for quickly add quotes parenthesis and others arround things
+	-- allow for quickly add quotes parenthesis and others arround things
 	"tpope/vim-surround",
+
 	-- allow replacing words with what is copied "vim-scripts/ReplaceWithRegister",
 	-- makes commenting easier
 	"numToStr/Comment.nvim",
@@ -102,12 +97,6 @@ local plugins = {
 		init = function()
 			vim.g.barbar_auto_setup = false
 		end,
-		opts = {
-			-- lazy.nvim will automatically call setup for you. put your options here, anything missing will use the default:
-			-- animation = true,
-			-- insert_at_start = true,
-			-- …etc.
-		},
 		version = "^1.0.0", -- optional: only update when a new 1.x version is released
 	},
 
@@ -144,24 +133,6 @@ local plugins = {
 		dependencies = {
 			"nvim-lua/plenary.nvim",
 		},
-	},
-
-	{
-		"mfussenegger/nvim-dap",
-		dependencies = {
-			"rcarriga/nvim-dap-ui",
-			"theHamsta/nvim-dap-virtual-text",
-		},
-	},
-
-	{
-		"saecki/crates.nvim",
-		dependencies = { "nvim-lua/plenary.nvim" },
-	},
-
-	{
-		"exafunction/codeium.vim",
-		event = "BufEnter",
 	},
 }
 local opts = {}
