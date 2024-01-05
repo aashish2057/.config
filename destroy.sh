@@ -8,4 +8,4 @@ echo "Uninstalling all brew packages"
 brew remove --force $(brew list --formula)
 
 echo "Uninstalling all brew packages"
-brew remove cask --force $(brew list --formula)
+brew remove cask --force $(brew list)

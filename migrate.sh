@@ -4,15 +4,6 @@
 set -x
 set -eo pipefail
 
-# Check if brew exists if not install it
-if ! [ -x "$(command -v brew)" ]; then
-  echo >&2 "Error: brew is not installed."
-  echo >&2 "Installing Brew"
-  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
-else
-    echo "Brew already installed"
-fi
-
 # Check if alacritty exists if not install it
 if ! [ -x "$(command -v alacritty)" ]; then
   echo >&2 "Error: alacritty is not installed."
