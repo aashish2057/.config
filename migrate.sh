@@ -121,3 +121,12 @@ else
     echo "lazygit already installed"
 fi
 
+# Check if zsh-syntax-highlighting exists if not install it
+if ! [ -x "$(command -v lazygit)" ]; then
+  echo >&2 "Error: zsh-syntax-highlighting is not installed."
+  echo >&2 "Installing zsh-syntax-highlighting"
+  brew install zsh-syntax-highlighting
+else
+    echo "zsh-syntax-highlighting already installed"
+fi
+
