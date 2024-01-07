@@ -14,7 +14,6 @@ require("aashish.plugins.lsp.mason")
 require("aashish.plugins.lsp.lspsaga")
 require("aashish.plugins.lsp.lspconfig")
 require("aashish.plugins.lsp.null-ls")
-require("aashish.plugins.crates")
 
 require("aashish.plugins.autopairs")
 require("aashish.plugins.treesitter")

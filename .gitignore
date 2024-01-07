@@ -2,5 +2,9 @@ gh/
 planetscale/
 neofetch/
 raycast/
-tmux/plugins/
+tmux/plugins/catppuccin-tmux/
+tmux/plugins/tmux-sensible/
+tmux/plugins/tmux-yank/
+tmux/plugins/tpm/
+tmux/plugins/vim-tmux-navigator/
 
