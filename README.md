@@ -7,3 +7,25 @@ My configuration for M2 Macbook Pro
 - tmux
 - yabai
 - skhd
+
+### brew packages
+
+- nvim
+- skdh
+- yabai
+- tmux
+- gh
+- starship
+- node
+- go
+- lazygit
+- neofetch
+- zsh-synxtax-highlighting
+
+### New mac setup guide
+
+#### Prerequisites
+
+- Xcode cli tools
+
+#### Instructions
