@@ -47,12 +47,11 @@ My configuration for M2 Macbook Pro
 
 #### Application specific instructions
 
-- tmux\
+- setup tmux plugins\
   clone TPM `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`\
   launch tmux and install plugins with `prefix + I`
 
-- arc\
-  configure shortcuts\
+- configure arc shortcuts\
   archieve tab - `ctrl - w`\
   find - `ctrl - f`\
   go back - `ctrl + shift - left`\
