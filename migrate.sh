@@ -130,3 +130,12 @@ else
     echo "zsh-syntax-highlighting already installed"
 fi
 
+# Check if neofetch exists if not install it
+if ! [ -x "$(command -v neofetch)" ]; then
+  echo >&2 "Error: neofetch is not installed."
+  echo >&2 "Installing neofetch"
+  brew install neofetch
+else
+    echo "neofetch already installed"
+fi
+
