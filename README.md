@@ -47,9 +47,9 @@ My configuration for M2 Macbook Pro
 
 #### Application specific instructions
 
-- tmux
-  clone TPM `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
-  launch tmux and install plugins with `prefix + I`
+- tmux\
+  clone TPM `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`\
+  launch tmux and install plugins with `prefix + I`\
 
 - arc
   configure shortcuts
