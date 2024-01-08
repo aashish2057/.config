@@ -1,14 +1,9 @@
-My dotfiles for M2 Macbook Pro running macOS 13
+My configuration for M2 Macbook Pro
 
-### alacritty
-Terminal
-### neovim
-Text Editor
-### tmux
-Terminal Emulator
-### yabai
-Window Manager
-### skhd
-Hotkey Daemon
+### dotfiles
 
-
+- alacritty
+- neovim
+- tmux
+- yabai
+- skhd
