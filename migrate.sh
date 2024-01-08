@@ -139,3 +139,16 @@ else
     echo "neofetch already installed"
 fi
 
+# check if font exists if not install it
+echo "installing geist mono nerd font"
+brew tap homebrew/cask-fonts
+brew install geist-mono-nerd-font
+
+# copy zshrc into root directory
+echo "copying zshrc into root directory"
+cp .zshrc ~
+
+# remove last login message from terminal
+echo "creating .hushlogin"
+touch .hushlogin
+mv .hushlogin ~
