@@ -21,6 +21,7 @@ My configuration for M2 Macbook Pro
 - lazygit
 - neofetch
 - zsh-synxtax-highlighting
+- zsh-autosuggestions
 
 ### brew casks
 

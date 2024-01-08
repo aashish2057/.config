@@ -152,3 +152,5 @@ cp .zshrc ~
 echo "creating .hushlogin"
 touch .hushlogin
 mv .hushlogin ~
+
+# TODO: Add ZSH plugins
