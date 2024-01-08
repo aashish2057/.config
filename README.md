@@ -22,6 +22,7 @@ My configuration for M2 Macbook Pro
 - neofetch
 - zsh-synxtax-highlighting
 - zsh-autosuggestions
+- zsh-autocomplete
 
 ### brew casks
 
