@@ -71,7 +71,7 @@ local plugins = {
 	"onsails/lspkind.nvim", -- vs-code like icons for autocompletion
 
 	-- code formatting and linting
-	"jose-elias-alvarez/null-ls.nvim",
+	"nvimtools/none-ls.nvim",
 	"jayp0521/mason-null-ls.nvim",
 
 	-- treesitter
