@@ -3,7 +3,7 @@ local opt = vim.opt
 -- line numbers
 opt.relativenumber = true
 opt.number = true
-opt.scrolloff = 100
+-- opt.scrolloff = 100
 
 -- tabs & indentation
 opt.tabstop = 4

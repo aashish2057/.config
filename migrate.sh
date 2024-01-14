@@ -1,3 +1,5 @@
+# TODO: Add spotify, rust command, use brew file
+
 #!/usr/bin/env bash
 
 # -xeo prints all executed commands, exit if any fails, prevent error from being masked
