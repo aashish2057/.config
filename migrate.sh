@@ -1,4 +1,4 @@
-# TODO: Add spotify, rust command, use brew file
+# TODO: Add spotify, rust command, obsidian, use brew file
 
 #!/usr/bin/env bash
 
