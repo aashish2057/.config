@@ -1,4 +1,4 @@
-# TODO: Add spotify, rust command, obsidian, use brew file
+# TODO: Add spotify, rust command, obsidian, orbstack, docker, app remover, use brew file
 
 #!/usr/bin/env bash
 
@@ -15,13 +15,13 @@ else
 fi
 
 # Check if alacritty exists if not install it
-if ! [ -x "$(command -v alacritty)" ]; then
-  echo >&2 "Error: alacritty is not installed."
-  echo >&2 "Installing alacritty"
-  brew install --cask alacritty
-else
-    echo "Alacritty already installed"
-fi
+#if ! [ -x "$(command -v alacritty)" ]; then
+#  echo >&2 "Error: alacritty is not installed."
+#  echo >&2 "Installing alacritty"
+#  brew install --cask alacritty
+#else
+#    echo "Alacritty already installed"
+#fi
 
 # Check if neovim exists if not install it
 if ! [ -x "$(command -v nvim)" ]; then
@@ -79,22 +79,22 @@ fi
 
 // TODO: Figure out how to check if casks installed
 # Check if arc browser exists if not install it
-if ! [ -x "$(command -v arc)" ]; then
-  echo >&2 "Error: starship is not installed."
-  echo >&2 "Installing starship"
-  brew install --cask arc
-else
-    echo "arc already installed"
-fi
+#if ! [ -x "$(command -v arc)" ]; then
+#  echo >&2 "Error: starship is not installed."
+#  echo >&2 "Installing starship"
+#  brew install --cask arc
+#else
+#    echo "arc already installed"
+#fi
 
 # Check if raycast exists if not install it
-if ! [ -x "$(command -v raycast)" ]; then
-  echo >&2 "Error: raycast is not installed."
-  echo >&2 "Installing raycast"
-  brew install --cask raycast
-else
-    echo "raycast already installed"
-fi
+#if ! [ -x "$(command -v raycast)" ]; then
+#  echo >&2 "Error: raycast is not installed."
+#  echo >&2 "Installing raycast"
+#  brew install --cask raycast
+#else
+#    echo "raycast already installed"
+#fi
 
 # Check if node exists if not install it
 if ! [ -x "$(command -v node )" ]; then
@@ -124,13 +124,7 @@ else
 fi
 
 # Check if zsh-syntax-highlighting exists if not install it
-if ! [ -x "$(command -v lazygit)" ]; then
-  echo >&2 "Error: zsh-syntax-highlighting is not installed."
-  echo >&2 "Installing zsh-syntax-highlighting"
-  brew install zsh-syntax-highlighting
-else
-    echo "zsh-syntax-highlighting already installed"
-fi
+brew install zsh-syntax-highlighting
 
 # Check if neofetch exists if not install it
 if ! [ -x "$(command -v neofetch)" ]; then
