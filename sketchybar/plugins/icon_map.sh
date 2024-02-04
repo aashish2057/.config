@@ -114,7 +114,7 @@ function icon_map() {
     icon_result=":vlc:"
     ;;
   "Alacritty")
-    icon_result=":terminal:"
+    icon_result=":alacritty:"
     ;;
   "Pages" | "Pages 文稿")
     icon_result=":pages:"
