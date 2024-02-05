@@ -135,6 +135,8 @@ local plugins = {
 			"nvim-lua/plenary.nvim",
 		},
 	},
+
+	"dusans/vim-hardmode",
 }
 local opts = {}
 require("lazy").setup(plugins, opts)
