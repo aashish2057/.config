@@ -26,7 +26,7 @@ cpu_sys=(
   graph.fill_color=$RED
   label.drawing=off
   icon.drawing=off
-  background.height=10
+  background.height=24
   background.drawing=on
   background.color=$TRANSPARENT
 )
@@ -35,7 +35,7 @@ cpu_user=(
   graph.color=$BLUE
   label.drawing=off
   icon.drawing=off
-  background.height=30
+  background.height=24
   background.drawing=on
   background.color=$TRANSPARENT
 )
