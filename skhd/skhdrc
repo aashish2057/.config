@@ -21,7 +21,7 @@ cmd + shift - h : yabai -m window --warp west
 cmd + shift - l : yabai -m window --warp east
 
 # open alacritty
-cmd - return : open -na alacritty
+# cmd - return : open -na alacritty
 
 # balance windows
 cmd + shift - 0 : yabai -m space --balance
