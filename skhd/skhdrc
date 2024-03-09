@@ -1,12 +1,12 @@
 # Changing window focus
 cmd - j : yabai -m window --focus south
-cmd - k : yabai -m window --focus north 
-cmd - l : yabai -m window --focus east 
+cmd - k : yabai -m window --focus north
+cmd - l : yabai -m window --focus east
 cmd - h : yabai -m window --focus west
 
 # Change between external displays
-cmd + shift - i : yabai -m display --focus east 
-cmd + shift - u : yabai -m display --focus west 
+cmd + shift - i : yabai -m display --focus east
+cmd + shift - u : yabai -m display --focus west
 
 # flip y axis
 cmd + shift - y : yabai -m space --mirror y-axis
@@ -16,8 +16,8 @@ cmd + shift - x : yabai -m space --mirror x-axis
 
 # move window and split
 cmd + shift - j : yabai -m window --warp south
-cmd + shift - k : yabai -m window --warp north 
-cmd + shift - h : yabai -m window --warp west 
+cmd + shift - k : yabai -m window --warp north
+cmd + shift - h : yabai -m window --warp west
 cmd + shift - l : yabai -m window --warp east
 
 # open alacritty
@@ -60,13 +60,25 @@ ctrl - 8: yabai -m space --focus 8
 ctrl - 9: yabai -m space --focus 9
 
 # focus display
-cmd + ctrl - 1: yabai -m display --focus 1 
-cmd + ctrl - 2: yabai -m display --focus 2 
+cmd + ctrl - 1: yabai -m display --focus 1
+cmd + ctrl - 2: yabai -m display --focus 2
 
 # switch space
 cmd + ctrl + shift - right: yabai -m space --focus next
-cmd + ctrl + shift - left: yabai -m space --focus prev 
+cmd + ctrl + shift - left: yabai -m space --focus prev
 
 # create space
 cmd + shift - c: yabai -m space --create
 cmd + shift - d: yabai -m space --destroy
+
+# move window to space and focus space
+ctrl + shift - 1 : yabai -m window --space  1; yabai -m space --focus 1
+ctrl + shift - 2 : yabai -m window --space  2; yabai -m space --focus 2
+ctrl + shift - 3 : yabai -m window --space  3; yabai -m space --focus 3
+ctrl + shift - 4 : yabai -m window --space  4; yabai -m space --focus 4
+ctrl + shift - 5 : yabai -m window --space  5; yabai -m space --focus 5
+ctrl + shift - 6 : yabai -m window --space  6; yabai -m space --focus 6
+ctrl + shift - 7 : yabai -m window --space  7; yabai -m space --focus 7
+ctrl + shift - 8 : yabai -m window --space  8; yabai -m space --focus 8
+ctrl + shift - 9 : yabai -m window --space  9; yabai -m space --focus 9
+ctrl + shift - 0 : yabai -m window --space 10; yabai -m space --focus 10
