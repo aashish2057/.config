@@ -476,6 +476,12 @@ function icon_map() {
   "WezTerm")
     icon_result=":wezterm:"
     ;;
+  "Plex")
+    icon_result=":plex:"
+    ;;
+  "Notion Calendar")
+    icon_result=":notion:"
+    ;;
   *)
     icon_result=":default:"
     ;;
