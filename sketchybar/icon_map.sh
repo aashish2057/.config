@@ -321,7 +321,7 @@ function __icon_map() {
    "Notes" | "备忘录")
         icon_result=":notes:"
         ;;
-   "Notion | Notion Calendar")
+   "Notion")
         icon_result=":notion:"
         ;;
    "Nova")
