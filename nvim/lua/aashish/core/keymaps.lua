@@ -43,3 +43,6 @@ keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>")
 
 -- clear white space
 keymap.set("n", "<Leader>wc", [[:%s/\s\+$//e<cr>]])
+
+-- toggle hard time neovim
+keymap.set("n", "<Leader>ht", "<cmd>Hardtime toggle<cr>")

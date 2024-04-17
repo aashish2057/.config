@@ -33,15 +33,15 @@ end
 -- used to enable autocompletion
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-lspconfig["clangd"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["zls"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
+-- lspconfig["clangd"].setup({
+-- 	capabilities = capabilities,
+-- 	on_attach = on_attach,
+-- })
+--
+-- lspconfig["zls"].setup({
+-- 	capabilities = capabilities,
+-- 	on_attach = on_attach,
+-- })
 
 lspconfig["tailwindcss"].setup({
 	capabilities = capabilities,
