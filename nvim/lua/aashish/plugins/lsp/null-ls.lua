@@ -20,7 +20,7 @@ null_ls.setup({
 		formatting.prettier, -- js/ts formatter
 		formatting.stylua, -- lua formatter
 		-- formatting.rustfmt,
-		formatting.black,
+		-- formatting.black,
 		-- formatting.gofmt,
 		-- formatting.goimports_reviser,
 		-- formatting.golines,
