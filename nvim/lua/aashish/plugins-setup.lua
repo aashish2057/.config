@@ -143,6 +143,10 @@ local plugins = {
 			enabled = false,
 		},
 	},
+
+	{
+		"folke/zen-mode.nvim",
+	},
 }
 local opts = {}
 require("lazy").setup(plugins, opts)
