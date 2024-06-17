@@ -16,13 +16,23 @@ local plugins = {
 	-- plugin that many other plugins use
 	"nvim-lua/plenary.nvim",
 
+	-- {
+	-- 	"rebelot/kanagawa.nvim",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	config = function()
+	-- 		require("kanagawa").setup({})
+	-- 		vim.cmd.colorscheme("kanagawa-wave")
+	-- 	end,
+	-- },
+
 	{
-		"rebelot/kanagawa.nvim",
+		"oxfist/night-owl.nvim",
 		lazy = false,
 		priority = 1000,
 		config = function()
-			require("kanagawa").setup({})
-			vim.cmd.colorscheme("kanagawa-wave")
+			require("night-owl").setup({})
+			vim.cmd.colorscheme("night-owl")
 		end,
 	},
 
