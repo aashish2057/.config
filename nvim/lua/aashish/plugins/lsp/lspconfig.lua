@@ -73,21 +73,21 @@ lspconfig["zls"].setup({
 	on_attach = on_attach,
 })
 
--- lspconfig["gopls"].setup({
--- 	capabilities = capabilities,
--- 	on_attach = on_attach,
--- 	cmd = { "gopls" },
--- 	settings = {
--- 		gopls = {
--- 			completeUnimported = true,
--- 			usePlaceholders = true,
--- 			analyses = {
--- 				unusedparams = true,
--- 			},
--- 			gofumpt = true,
--- 		},
--- 	},
--- })
+lspconfig["gopls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+	cmd = { "gopls" },
+	settings = {
+		gopls = {
+			completeUnimported = true,
+			usePlaceholders = true,
+			analyses = {
+				unusedparams = true,
+			},
+			gofumpt = true,
+		},
+	},
+})
 
 -- lspconfig["pyright"].setup({
 -- 	capabilities = capabilities,

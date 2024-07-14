@@ -14,6 +14,9 @@ opt.expandtab = true
 -- line wrapping
 opt.wrap = true
 opt.linebreak = true
+opt.wrapmargin = 0
+opt.textwidth = 0
+opt.number = true
 
 -- search setttings
 opt.ignorecase = true

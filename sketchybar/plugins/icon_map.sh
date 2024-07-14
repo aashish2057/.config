@@ -479,8 +479,8 @@ function icon_map() {
   "Plex")
     icon_result=":plex:"
     ;;
-  "Notion Calendar")
-    icon_result=":notion:"
+  "Sunsama")
+    icon_result=":sunsama:"
     ;;
   *)
     icon_result=":default:"

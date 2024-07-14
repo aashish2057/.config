@@ -444,6 +444,9 @@ function __icon_map() {
    "Sublime Text")
         icon_result=":sublime_text:"
         ;;
+   "Sunsama")
+        icon_result=":sunsama:"
+        ;;
    "Tana")
         icon_result=":tana:"
         ;;
