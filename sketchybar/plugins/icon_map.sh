@@ -482,6 +482,9 @@ function icon_map() {
   "Sunsama")
     icon_result=":sunsama:"
     ;;
+  "ChatGPT")
+    icon_result=":chatgpt:"
+    ;;
   *)
     icon_result=":default:"
     ;;

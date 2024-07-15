@@ -84,6 +84,9 @@ function __icon_map() {
    "Caprine")
         icon_result=":caprine:"
         ;;
+   "ChatGPT")
+        icon_result=":chatgpt:"
+        ;;
    "Citrix Workspace" | "Citrix Viewer")
         icon_result=":citrix:"
         ;;
