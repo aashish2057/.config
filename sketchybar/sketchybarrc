@@ -70,7 +70,6 @@ source "$ITEM_DIR/yabai.sh"
 source "$ITEM_DIR/front_app.sh"
 
 # Right
-source "$ITEM_DIR/github.sh"
 source "$ITEM_DIR/cpu.sh"
 
 sketchybar --hotload on
