@@ -3,9 +3,5 @@ planetscale/
 neofetch/
 raycast/
 btop/
-tmux/plugins/catppuccin-tmux/
-tmux/plugins/tmux-sensible/
-tmux/plugins/tmux-yank/
-tmux/plugins/tpm/
-tmux/plugins/vim-tmux-navigator/
+tmux/plugins
 reg.xml
