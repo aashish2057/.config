@@ -27,8 +27,8 @@ cmd + shift - l : yabai -m window --warp east
 cmd + shift - 0 : yabai -m space --balance
 
 # move windows to other monitor and focus
-cmd + shift - 1 : yabai -m window --display 1; yabai -m display --focus 1
-cmd + shift - 2 : yabai -m window --display 2; yabai -m display --focus 2
+cmd + alt - 1 : yabai -m window --display 1; yabai -m display --focus 1
+cmd + alt - 2 : yabai -m window --display 2; yabai -m display --focus 2
 
 ## increase window size
 cmd + shift - left : yabai -m window --resize left:-20:0
