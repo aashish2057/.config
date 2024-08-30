@@ -67,3 +67,4 @@ My configuration for M2 Macbook Pro
   open command bar - `ctrl + shift - l`\
   refresh the page - `ctrl + r`\
   restore last closed tab - `ctrl + shift - t`
+  show/hide sidebar - `ctrl - s`
