@@ -33,44 +33,19 @@ end
 -- used to enable autocompletion
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
--- lspconfig["clangd"].setup({
--- 	capabilities = capabilities,
--- 	on_attach = on_attach,
--- })
---
--- lspconfig["zls"].setup({
--- 	capabilities = capabilities,
--- 	on_attach = on_attach,
--- })
-
-lspconfig["tailwindcss"].setup({
+lspconfig["rust_analyzer"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
-})
-
--- lspconfig["rust_analyzer"].setup({
--- 	capabilities = capabilities,
--- 	on_attach = on_attach,
--- 	settings = {
--- 		["rust-analyzer"] = {
--- 			checkOnSave = {
--- 				command = "clippy",
--- 			},
--- 			cargo = {
--- 				allFeatures = true,
--- 			},
--- 		},
--- 	},
--- })
-
-lspconfig["yamlls"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["zls"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
+	settings = {
+		["rust-analyzer"] = {
+			checkOnSave = {
+				command = "clippy",
+			},
+			cargo = {
+				allFeatures = true,
+			},
+		},
+	},
 })
 
 lspconfig["gopls"].setup({
@@ -89,11 +64,6 @@ lspconfig["gopls"].setup({
 	},
 })
 
--- lspconfig["pyright"].setup({
--- 	capabilities = capabilities,
--- 	on_attach = on_attach,
--- })
-
 lspconfig["html"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
@@ -109,22 +79,12 @@ lspconfig["cssls"].setup({
 	on_attach = on_attach,
 })
 
-lspconfig["tsserver"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["angularls"].setup({
+lspconfig["ts_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
 
 lspconfig["tailwindcss"].setup({
-	capabilities = capabilities,
-	on_attach = on_attach,
-})
-
-lspconfig["yamlls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })
