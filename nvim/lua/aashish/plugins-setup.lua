@@ -158,6 +158,19 @@ local plugins = {
 	{
 		"folke/zen-mode.nvim",
 	},
+
+	{
+		"echasnovski/mini.indentscope",
+		version = "*",
+		config = function()
+			require("mini.indentscope").setup({
+				draw = {
+					delay = 10,
+				},
+				symbol = "┃",
+			})
+		end,
+	},
 }
 local opts = {}
 require("lazy").setup(plugins, opts)
