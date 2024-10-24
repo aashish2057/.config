@@ -17,12 +17,13 @@ local plugins = {
 	"nvim-lua/plenary.nvim",
 
 	{
-		"oxfist/night-owl.nvim",
+		"sam4llis/nvim-tundra",
 		lazy = false,
 		priority = 1000,
 		config = function()
-			require("night-owl").setup({})
-			vim.cmd.colorscheme("night-owl")
+			require("nvim-tundra").setup({})
+			vim.g.tundra_biome = "arctic"
+			vim.cmd.colorscheme("tundra")
 		end,
 	},
 
