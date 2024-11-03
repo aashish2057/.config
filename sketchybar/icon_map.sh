@@ -117,6 +117,9 @@ function __icon_map() {
    "Citrix Workspace" | "Citrix Viewer")
         icon_result=":citrix:"
         ;;
+   "Claude")
+        icon_result=":claude:"
+        ;;
    "ClickUp")
         icon_result=":click_up:"
         ;;
@@ -468,6 +471,12 @@ function __icon_map() {
    "PDF Expert")
         icon_result=":pdf_expert:"
         ;;
+   "Pearcleaner")
+        icon_result=":pearcleaner:"
+        ;;
+   "Phoenix Slides")
+        icon_result=":phoenix_slides:"
+        ;;
    "Adobe Photoshop"*)
         icon_result=":photoshop:"
         ;;
@@ -479,6 +488,12 @@ function __icon_map() {
         ;;
    "Pine")
         icon_result=":pine:"
+        ;;
+   "Plex")
+        icon_result=":plex:"
+        ;;
+   "Plexamp")
+        icon_result=":plexamp:"
         ;;
    "Podcasts" | "播客")
         icon_result=":podcasts:"
