@@ -46,6 +46,3 @@ keymap.set("n", "<Leader>wc", [[:%s/\s\+$//e<cr>]])
 
 -- toggle hard time neovim
 keymap.set("n", "<Leader>ht", "<cmd>Hardtime toggle<cr>")
-
--- show full diagnostics
-keymap.set("n", "<Leader>se", "<cmd>lua vim.diagnostic.open_float()<cr>")
