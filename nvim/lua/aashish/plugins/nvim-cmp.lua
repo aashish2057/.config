@@ -73,3 +73,7 @@ cmp.setup.cmdline(":", {
 		},
 	}),
 })
+
+cmp.setup.buffer {
+    enabled = false
+}
