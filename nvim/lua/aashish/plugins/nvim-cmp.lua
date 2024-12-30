@@ -48,6 +48,9 @@ cmp.setup({
 			ellipsis_char = "...",
 		}),
 	},
+	completion = {
+		autocomplete = false,
+	},
 })
 
 cmp.setup.cmdline("/", {
@@ -59,8 +62,8 @@ cmp.setup.cmdline("/", {
 
 cmp.setup.cmdline(":", {
 	mapping = cmp.mapping.preset.cmdline({
-		['<Down>'] = { c = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }) },
-        ['<Up>'] = { c = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }) },
+		["<Down>"] = { c = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }) },
+		["<Up>"] = { c = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }) },
 	}),
 	sources = cmp.config.sources({
 		{ name = "path" },
@@ -73,7 +76,3 @@ cmp.setup.cmdline(":", {
 		},
 	}),
 })
-
-cmp.setup.buffer {
-    enabled = false
-}
