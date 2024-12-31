@@ -17,13 +17,13 @@ local plugins = {
 	"nvim-lua/plenary.nvim",
 
 	{
-		"sam4llis/nvim-tundra",
+		"marko-cerovac/material.nvim",
 		lazy = false,
 		priority = 1000,
 		config = function()
-			require("nvim-tundra").setup({})
-			vim.g.tundra_biome = "arctic"
-			vim.cmd.colorscheme("tundra")
+			require("material").setup({})
+			vim.g.material_style = "deep ocean"
+			vim.cmd.colorscheme("material")
 		end,
 	},
 
@@ -158,6 +158,9 @@ local plugins = {
 
 	{
 		"folke/zen-mode.nvim",
+		config = function()
+			vim.cmd("ZenMode")
+		end,
 	},
 
 	{
