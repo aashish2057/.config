@@ -225,11 +225,17 @@ function __icon_map() {
    "Fork")
         icon_result=":fork:"
         ;;
+   "FreeTube")
+        icon_result=":freetube:"
+        ;;
    "Fusion")
         icon_result=":fusion:"
         ;;
    "System Preferences" | "System Settings" | "系统设置" | "Réglages Système")
         icon_result=":gear:"
+        ;;
+   "Ghostty")
+        icon_result=":ghostty:"
         ;;
    "GitHub Desktop")
         icon_result=":git_hub:"
@@ -254,6 +260,9 @@ function __icon_map() {
         ;;
    "IntelliJ IDEA")
         icon_result=":idea:"
+        ;;
+   "IINA")
+        icon_result=":iina:"
         ;;
    "Adobe Illustrator"* | "Illustrator")
         icon_result=":illustrator:"
@@ -690,6 +699,9 @@ function __icon_map() {
    "Zed")
         icon_result=":zed:"
         ;;
+   "Zen Browser")
+        icon_result=":zen_browser:"
+        ;;
    "Zeplin")
         icon_result=":zeplin:"
         ;;
@@ -701,6 +713,9 @@ function __icon_map() {
         ;;
    "Zulip")
         icon_result=":zulip:"
+        ;;
+   "Ghostty")
+        icon_result=":ghostty:"
         ;;
     *)
         icon_result=":default:"

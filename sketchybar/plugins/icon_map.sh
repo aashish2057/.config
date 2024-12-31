@@ -701,6 +701,9 @@ function icon_map() {
    "Zulip")
         icon_result=":zulip:"
         ;;
+   "Ghostty")
+        icon_result=":ghostty:"
+        ;;
     *)
         icon_result=":default:"
         ;;
