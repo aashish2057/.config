@@ -159,7 +159,12 @@ local plugins = {
 	{
 		"folke/zen-mode.nvim",
 		config = function()
-			vim.cmd("ZenMode")
+			vim.api.nvim_create_autocmd({ "VimEnter", "BufReadPost" }, {
+				callback = function()
+					local zen_mode = require("zen-mode")
+					zen_mode.open()
+				end,
+			})
 		end,
 	},
 
