@@ -2,6 +2,4 @@ theme = MaterialOcean
 window-decoration = false
 macos-titlebar-style = hidden
 font-family = GeistMono NFM
-
-
-
+cursor-style = block
