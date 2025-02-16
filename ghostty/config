@@ -3,4 +3,4 @@ window-decoration = false
 macos-titlebar-style = hidden
 font-family = GeistMono NFM
 shell-integration-features = no-cursor
-cursor-style = bar
+cursor-style = block
