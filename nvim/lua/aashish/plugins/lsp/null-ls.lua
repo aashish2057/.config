@@ -17,6 +17,7 @@ null_ls.setup({
 	sources = {
 		--  to disable file types use
 		formatting.stylua.with({
+			extra_args = { "--indent-type", "Spaces", "--indent-width", "4" },
 			filetypes = { "lua" },
 		}), -- lua formatter
 	},
